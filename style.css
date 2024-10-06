@@ -1,0 +1,68 @@
+.nav-desk ul li {
+ list-style: none;
+ color: rgb(237, 239, 240);
+}
+.nav-desk ul li a{
+    color: rgb(237, 239, 240);
+    text-decoration: none;
+    font-size: 25px;
+   }
+.nav-desk {
+    display: flex;
+align-items: center;
+    background-color: rgb(48, 79, 97); 
+    padding-left: 15px; 
+
+}
+.nav-desk ul{
+display: flex;
+gap: 20px;
+}
+.nav-desk label{
+    border: 1px solid wheat;
+    background-color: antiquewhite;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="checkbox"]{
+display: none;
+}
+.nav-desk label{
+    display: none;
+}
+.nav-mobile ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: inline-block;
+        background-color: rgb(48, 79, 97); 
+        padding-left: 15px;  
+}
+.nav-mobile ul li{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-mobile ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+    width: 30wh;
+}
+.nav-mobile{
+    /* display: none; */
+}
+
+@media (width:760) {
+
+
+    
+}
