@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+h1{
+ font-family: "MedievalSharp", system-ui;
+}
 .nav-desk ul li {
  list-style: none;
  color: rgb(237, 239, 240);
@@ -67,13 +71,26 @@ display: none;
 .container .con-right {
     position: absolute;
     top: 10px;
-    right: 10px;
-    max-width: 50%;
-    border-radius: 10px;
-}
-@media (width:760px) {
+    right: 10px;}
+    .container  .con-left{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+@media (max-width:760px) {
     .nav-desk label{
         display: block;
-    } 
+    }
+    .nav-desk label:hover +nav-mobile{
+            display: block;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .container  .con-left{
+        display: flex;
+        flex-direction: column;
+    }
 
 }
